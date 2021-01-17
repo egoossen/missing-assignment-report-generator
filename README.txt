@@ -2,6 +2,8 @@
 An Excel Macro file to format missing assignment reports created by Canvas.
 
 Missing Assignment Report Generator v0.1.0
+10 January 2021
+Tested on Microsoft Excel 2016
 
 Note: No further versions are planned.
 
