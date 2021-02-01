@@ -1,8 +1,11 @@
 # missing-assignment-report-generator
 An Excel Macro file to format missing assignment reports created by Canvas.
 
-Missing Assignment Report Generator v0.1.0
-10 January 2021
+*Revision History
+
+2021-01-31 - Version 0.2.0 - Added functionality for importing from the Canvas gradebook
+2021-01-10 - Version 0.1.0 - Original Release
+
 Tested on Microsoft Excel 2016
 
 Note: No further versions are planned.
@@ -14,22 +17,27 @@ Note: No further versions are planned.
 	(an Leaning Management System by Instructure, Inc.) and 
 	formats it for printing. Reports are sorted by student
 	and missing assignments are sorted by due date for each
-	student.
+	student. The Generator can also make a report using an 
+	export from the Canvas gradebook.
 
 *Installation
 
-	Unzip all the files into the desired directory.
+	Unzip "Missing_Assignment_Generator.xlsm" into the desired directory.
 
 *Usage
 
 	-Generating a Report:
-		1) Use Canvas to generate a missing assignment report.
-		2) Save the report as a ".CSV" file (default) in an 
+		1) Use Canvas to generate a missing assignment report
+			or start an export from the gradebook.
+		2) Save the file as a ".CSV" file (default) in an 
 			accessible location.
 		3) Open the Generator (Missing_Assignment_Generator.xlsm)
 		4) If prompted, enable content for this file.
-		5) Click "Import from CSV" and open the missing assignment
-			report that you would like to format.
+		5) Click "Import from Missing Assignment Report" or
+			"Import from Grade Book" and select the file from
+			step 1.
+			Note: Importing from the grade book requires some
+				extra steps that are indicated in the program.
 		6) Ensure that the report has the correct information.
 		7) Use Excel's "Print" feature to print the report.
 
@@ -41,7 +49,7 @@ Note: No further versions are planned.
 			"Quarter Start Date".
 		2) Enter the first day of the quarter (or semester)
 			into the green cell. The Generator will not 
-			allow a future date	for this field.
+			allow a future date for this field.
 		
 *Support
 	
