@@ -7,6 +7,9 @@ An Excel Macro file to format missing assignment reports created by Canvas.
 2021-01-31 - Version 0.2.0 - Added functionality for importing from the Canvas gradebook
 2021-01-10 - Version 0.1.0 - Original Release
 
+*Known Bugs
+  The Generator will throw an error if an assignment does not have a due date in Canvas.
+
 Tested on Microsoft Excel 2016
 
 Note: No further versions are planned.
